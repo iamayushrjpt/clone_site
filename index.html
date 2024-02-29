@@ -228,6 +228,7 @@
         const ham = document.getElementById("ham");
         const List = document.querySelector('ul');
 
+        List.style.display = "none";
         ham.addEventListener('click', () => {
             if (List.style.display == "none") {
                 List.style.display = "flex"
